@@ -128,4 +128,87 @@ span {
 
 /* === Styling layout === */
 .container {
+  min-height: 100vh;
+  background-color: var(--Cream);
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.card {
+  display: flex;
+  max-width: 580px;
+  background-color: var(--White);
+
+  border-radius: 1.2rem;
+  overflow: hidden;
+  box-shadow: 2px 1px 6px rgba(0, 0, 0, 0.1);
+}
+.card-image,
+.card-content {
+  flex: 1;
+}
+
+.card-image {
+  background-image: url("../images/image-product-desktop.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  padding: 2.4rem;
+}
+.card-content {
+  padding: 2.4rem;
+}
+.product-name {
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  margin-bottom: var(--space-md);
+}
+.card-header {
+  font-family: var(--ff-head);
+  color: var(--Green-700);
+  font-weight: var(--fw-700);
+  line-height: 1;
+  margin-bottom: var(--space-md);
+}
+.text {
+  margin-bottom: var(--space-md);
+}
+.card-price {
+  display: flex;
+  gap: var(--space-md);
+  align-items: center;
+}
+.price-discount {
+  font-size: var(--text-h4);
+  font-family: var(--ff-head);
+  color: var(--Green-500);
+  font-weight: var(--fw-700);
+
+  margin-bottom: var(--space-md);
+}
+.price-original {
+  text-decoration: line-through;
+}
+.btn-add-to-card {
+  width: 100%;
+  padding: 1.2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: var(--space-sm);
+  border: none;
+  border-radius: var(--space-xs);
+
+  font-family: var(--ff-hea);
+  font-weight: var(--fw-500);
+  color: var(--White);
+  background-color: var(--Green-500);
+
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.btn-add-to-card:hover {
+  background-color: var(--Green-700);
 }
