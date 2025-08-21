@@ -134,6 +134,7 @@ span {
   display: flex;
   justify-content: center;
   align-items: center;
+  padding: var(--space-xl) var(--space-md);
 }
 .card {
   display: flex;
@@ -211,4 +212,19 @@ span {
 
 .btn-add-to-card:hover {
   background-color: var(--Green-700);
+}
+.attribution {
+  padding: var(--space-md);
+  text-align: center;
+}
+
+@media (max-width: 500px) {
+  .card {
+    flex-direction: column;
+  }
+  .card-image {
+    background-image: url("../images/image-product-mobile.jpg");
+    flex: auto;
+    height: 250px;
+  }
 }
