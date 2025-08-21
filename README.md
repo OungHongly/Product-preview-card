@@ -23,7 +23,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [Github](https://github.com/OungHongly/Product-preview-card.git)
-- Live Site URL: [Live server](https://your-live-site-url.com)
+- Live Site URL: [Live server](https://ounghongly.github.io/Product-preview-card/)
 
 ## My process
 
